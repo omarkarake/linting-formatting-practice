@@ -1,6 +1,6 @@
 // src/app/app.component.ts
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UserListComponent } from './user-list/user-list.component';  // Import UserListComponent
 
 @Component({
@@ -10,7 +10,7 @@ import { UserListComponent } from './user-list/user-list.component';  // Import 
   standalone: true,
   imports: [UserListComponent],  // Add UserListComponent here
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'linting-formatting-practice';
 
   constructor() {
@@ -18,7 +18,7 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    let x = 10;
+    const x: number = 10;
     if (x === 10) {  // Use strict equality check
       console.log('x is 10');
     }
