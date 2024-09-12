@@ -23,6 +23,7 @@ Lint warnings found in the listed files.
 Lint errors found in the listed files.
 
 ## you can use
+
 npm run lint -- --fix
 
 ## for husky to run lint and format we use this:
