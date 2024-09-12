@@ -106,6 +106,74 @@ PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+# Project Name
+
+## Setup Process
+
+### Prerequisites
+- Node.js (version X.X.X or higher)
+- npm (version X.X.X or higher)
+- Angular CLI (version X.X.X or higher)
+
+### Installation
+1. Clone the repository:
+   - `git clone https://github.com/your-repo/project-name.git`
+   - `cd project-name`
+
+2. Install dependencies:
+   - `npm install`
+
+### Running the Project
+- To start the development server:
+  - `npm start`
+
+- To build the project:
+  - `npm run build`
+
+- To watch for changes and rebuild automatically:
+  - `npm run watch`
+
+- To run tests:
+  - `npm test`
+
+### Linting and Formatting
+- To lint the code:
+  - `npm run lint`
+
+- To fix linting errors:
+  - `npm run lint:fix`
+
+- To format the code:
+  - `npm run format`
+
+- To check code formatting:
+  - `npm run format:check`
+
+- To run both linting and formatting:
+  - `npm run lint-format`
+
+### Server-Side Rendering
+- To serve the SSR build:
+  - `npm run serve:ssr:linting-formatting-practice`
+
+### Husky
+- Husky is used to manage Git hooks. It is installed automatically when you run `npm install`.
+
+## Configuration Choices
+
+### Angular CLI
+- The project uses Angular CLI for building and serving the application.
+
+### Prettier
+- Prettier is used for code formatting. Configuration can be found in the `.prettierrc` file.
+
+### Husky
+- Husky is used to ensure code quality by running linting and formatting checks before commits.
+
+## Additional Notes
+- Ensure that you have the required versions of Node.js and npm installed.
+- Follow the instructions above to set up and run the project.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
