@@ -1,5 +1,7 @@
 # LintingFormattingPractice
 
+hosted version: https://genuine-cat-5bb4ce.netlify.app/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
 ## Documenting eslint errors:
