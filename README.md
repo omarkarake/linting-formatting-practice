@@ -23,13 +23,14 @@ Lint warnings found in the listed files.
 Lint errors found in the listed files.
 
 ## for husky to run lint and format we use this:
+
 npm install --save-dev husky
 "husky": "^8.0.0",
 
 up to date, audited 1022 packages in 12s
 
 148 packages are looking for funding
-  run `npm fund` for details
+run `npm fund` for details
 PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice> npm install --save-dev husky
 
 PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice> npm install --save-dev husky
@@ -38,12 +39,12 @@ PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice> npm
 up to date, audited 1022 packages in 12s
 
 148 packages are looking for funding
-  run `npm fund` for details
+run `npm fund` for details
 
 8 vulnerabilities (5 moderate, 3 high)
 
 To address all issues, run:
-  npm audit fix
+npm audit fix
 
 Run `npm audit` for details.
 PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice>
@@ -63,22 +64,22 @@ husky - Git hooks installed
 changed 1 package, and audited 1022 packages in 4s
 
 148 packages are looking for funding
-  run `npm fund` for details
+run `npm fund` for details
 
 8 vulnerabilities (5 moderate, 3 high)
 
 To address all issues, run:
-  npm audit fix
+npm audit fix
 
 Run `npm audit` for details.
 PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice> npm prepare
 Unknown command: "prepare"
 
 Did you mean this?
-  npm run prepare # run the "prepare" package script
+npm run prepare # run the "prepare" package script
 
 To see a list of supported npm commands, run:
-  npm help
+npm help
 PS C:\Users\Amalitech\Desktop\Learning material\linting-formatting-practice> npm run prepare
 
 > linting-formatting-practice@0.0.0 prepare
